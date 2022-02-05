@@ -10,7 +10,7 @@ jobs:
     steps:
      
       - name: Step 1 - Log disk space 
-        run: df 
+        run: ls
         
       - name: Step 2 - Checkout main Github Branch
         uses: actions/checkout@v2
@@ -28,7 +28,7 @@ jobs:
          gradle --version 
          
       - name: Step 5 - Log disk space 
-        run: df 
+        run: ls
      
     
     
