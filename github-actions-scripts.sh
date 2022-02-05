@@ -1,4 +1,4 @@
-  echo What is in this directory?
+          echo What is in this directory?
           ls -a 
           echo
           echo Is Java installed?
@@ -11,3 +11,7 @@
           mvn --version
           gradle --version
           ant -version
+          echo
+          echo Where is the Android SDK Root?
+          echo
+          
