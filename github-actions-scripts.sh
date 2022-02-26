@@ -12,6 +12,5 @@
           gradle --version
           ant -version
           echo
-          echo Where is the Android SDK Root?
-          echo
+          
           
